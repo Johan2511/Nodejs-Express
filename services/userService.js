@@ -13,7 +13,7 @@ class UserService {
         this.users.push({
             id: faker.string.uuid(),
             name: faker.commerce.productName(),
-            gender: faker.gender(),
+            gender:  faker.person.sexType(),
             })
         }
     }
